@@ -1,0 +1,14 @@
+.error{
+    background-color: gray;
+    padding: 250px;
+    height: 100%;
+    border: 2px solid purple;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.error h1{
+    font-weight: bold;
+   font-size: 80px;
+}

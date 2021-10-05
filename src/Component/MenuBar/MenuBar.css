@@ -1,0 +1,24 @@
+.MenuBar-container{
+  background-color: #191919;
+  padding: 20px;
+}
+.items {
+  margin-top: 20px;
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(218, 214, 214);
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+.items:hover {
+  color: purple;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+.name{
+  padding-left: 20px;
+  color: purple;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 20px #e60073, 0 0 20px #e60073, 0 0 10px #e60073, 0 0 40px #e60073;
+}

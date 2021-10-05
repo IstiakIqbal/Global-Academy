@@ -1,0 +1,11 @@
+.card{
+    height: 100px;
+    margin:20px;
+    background-color: rgba(177, 177, 177, 0.775);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.card img{
+
+    width: 100%;
+}

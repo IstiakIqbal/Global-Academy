@@ -1,0 +1,65 @@
+const course = [
+    {
+        name: 'Complete Video Editing Course',
+        img: 'https://interactivecares-courses.com/wp-content/uploads/2020/10/master-class-on-video-editing-2-768x471.jpg',
+        By: 'Jubayer Talukdar',
+        Rating: 4.5,
+        Price: 16,
+    },
+    {
+        name: 'Complete Photo Editing Course',
+        img: './src/images/Istiak (2).jpg',
+        By: 'Istiak Iqbal',
+        Rating: 5.0,
+        Price: 20,
+    },
+    {
+        name: 'Learn Ethical Hacking From Scratch',
+        img: 'https://fossbytes.com/wp-content/uploads/2017/07/ethical-hacking-course.jpg',
+        By: 'Zaid Sabih',
+        Rating: 4.6,
+        Price: 22,
+    },
+    {
+        name: 'UI / UX Design Specialization',
+        img: 'https://cdn-bccfn.nitrocdn.com/dQvfjUMKmSakXspPACqmZNbJZBsJTrQs/assets/static/optimized/rev-c876d05/oeeysgepuyd/wp-content/uploads/2020/07/create-ui-ux-design-for-your-app.jpg',
+        By: 'Michael Worthington',
+        Rating: 4.8,
+        Price: 13,
+    },
+    {
+        name: 'Ultimate AWS Certified Solutions Architect Associate 2021',
+        img: 'https://coursemarks.com/wp-content/uploads/2020/11/2196488_8fc7_7.jpg',
+        By: 'Stephane Maarek',
+        Rating: 4.7,
+        Price: 21,
+    },
+    {
+        name: 'Complete Python Bootcamp',
+        img: 'https://coursemarks.com/wp-content/uploads/2020/11/567828_67d0.jpg',
+        By: 'Jose Portilla',
+        Rating: 4.6,
+        Price: 19,
+    },
+    {
+        name: 'Machine Learning A-Z',
+        img: 'https://ksr-ugc.imgix.net/assets/015/692/357/198315f4d17ce60015e925ba74b7e9d5_original.jpg?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1488338170&auto=format&frame=1&q=92&s=f7820a66c24e6531624ef7b0523e0533',
+        By: 'Kirill Eremenko',
+        Rating: 3.9,
+        Price: 11,
+    },
+    {
+        name: 'The Web Developer Bootcamp',
+        img: 'https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg',
+        By: 'Colt Steele',
+        Rating: 4.9,
+        Price: 31,
+    },
+    {
+        name: 'Neural Networks and Deep Learning',
+        img: 'https://www.facebook.com/photo/?fbid=2651653325131344&set=a.1402136920082997',
+        By: 'Istiak Iqbal',
+        Rating: 5.0,
+        Price: 42,
+    }
+]
