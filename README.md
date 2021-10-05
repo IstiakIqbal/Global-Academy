@@ -1,3 +1,5 @@
+Site Link: https://global-academy.netlify.app/
+
 Welcome to Global Academy
 
 • A unique school for Year 10 – Year 13 students specialising in the fast-paced and exciting creative media industry.

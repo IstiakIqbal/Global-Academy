@@ -6,12 +6,13 @@ const Services = () => {
     useEffect(() => {
         fetch(`./fakeData.JSON`)
             .then(res => res.json())
-            .then(data => setservices(data))
+            .then(data => setservices(data.slice(0, 4)))
     }, [])
     return (
-        <div>
+        <div className="row m-4">
+            <h1 className="name m-3">Our Services</h1>
             {
-                services.map(service => <Service service={service} key={service.name}></Service>)
+                services.map(service => <Service key={service.name} service={service}></Service>)
             }
         </div>
     );

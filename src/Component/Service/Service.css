@@ -1,0 +1,7 @@
+.card-image{
+    /* height: 300px; */
+    width: 100%;
+}
+.card:hover{
+    border: 2px solid rgb(253, 253, 253);
+}

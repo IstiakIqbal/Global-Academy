@@ -1,6 +1,6 @@
 
 import "./MenuBar.css";
-import logo from "../..//images/logo/baller-logo-3.png";
+import logo from "../..//images/logo/Globe.png";
 import { Link } from "react-router-dom";
 
 
@@ -12,7 +12,7 @@ const MenuBar = () => {
         <div className="row">
           <div className="col-md-2">
             <div className="logo-img d-flex">
-              <img className="w-50 m-3" src={logo} alt="" />
+              <img className="navicon img-fluid" src={logo} alt="" />
               <div>
                 <h1 className="name">Global Academy</h1>
               </div>
@@ -25,7 +25,7 @@ const MenuBar = () => {
                   <li>Home</li>
                 </Link>
                 <Link to="/courses" className="items">
-                  <li>Courses</li>
+                  <li>Services</li>
                 </Link>
                 <Link to="/about" className="items">
                   <li>About us</li>

@@ -10,12 +10,12 @@ const Courses = () => {
     }, [])
     return (
         <div>
-            <h1 className="name">Our Services</h1>
-            <p className="text-white">Total Course {courses.length} </p>
-            <div className="row">
+            <h1 className="name">All Courses</h1>
+            <div className="row m-5">
                 {
                     courses.map(course => <Course key={course.name} course={course}></Course>)
                 }
+                <button className="btn">Home</button>
             </div>
         </div>
     );

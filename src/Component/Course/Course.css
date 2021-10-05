@@ -1,11 +1,8 @@
-.card{
-    height: 100px;
-    margin:20px;
-    background-color: rgba(177, 177, 177, 0.775);
-    border-radius: 20px;
-    margin-bottom: 20px;
-}
-.card img{
-
+.card-image{
+    height: 300px;
     width: 100%;
+}
+.card:hover{
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
 }

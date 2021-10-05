@@ -1,14 +1,20 @@
 .error{
     background-color: gray;
-    padding: 250px;
+    padding: 200px;
     height: 100%;
     border: 2px solid purple;
-    margin-top: 50px;
+    margin-top: 30px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+    text-shadow: 2px 2px 6px black;
 }
 .error h1{
     font-weight: bold;
-   font-size: 80px;
+   font-size: 60px;
+}
+.doge{
+    width: 200px;
+    border: 3px solid crimson;
+    border-radius: 50%;
 }

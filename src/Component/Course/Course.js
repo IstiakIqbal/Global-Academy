@@ -1,23 +1,25 @@
 import React from 'react';
+import './Course.css'
 
 const Course = (props) => {
   const { name, img, Price, By, Rating } = props.course;
 
   return (
-    <div className="col-4">
-      <div className="card">
-        <img src={img} alt="" />
+    <div className="col-md-4">
+      <div className="card m-4 bg-secondary">
+        <img className="card-img-top card-image" src={img} alt="" />
         <div className="card-body">
-          <h2 className="card-title">{name}</h2>
-          <h5>Created By {By}</h5>
-          <p className="card-text">Rating: {Rating}</p>
-          <h3>Price: {Price}$</h3>
-          <button>Add to cart</button>
+          <h3 className="card-title">
+            {name}
+          </h3>
+          <p>Created By: {By} <br /> <small> Rating: {Rating}</small></p>
+          <h5 className="card-text pb-3"> Price: {Price}$
+          </h5>
+          <button className="mt-5 about-btn">Buy Now</button>
         </div>
       </div>
-
     </div>
-  );
+  )
 };
 
 export default Course;
